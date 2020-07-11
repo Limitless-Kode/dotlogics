@@ -1,0 +1,174 @@
+extends layout
+block styles
+  link(rel="stylesheet", href="/css/main.css")
+block content
+  .overlay.hide
+  .jumbotron
+    .text
+      h2 Prolific 
+        span.primary Developers,
+        br
+        | maintainable apps
+      p We keep our code minimal because we know minimal is maintainable and readable.
+      .buttons.mt-10
+        button.mt-10.btn-lg Build your app 
+          ion.ion-md-arrow-forward.ml-20
+        button.mt-10.btn-lg.btn-grey Let's talk
+    .image
+      img(src="/images/illustration.png", alt="")
+  .container
+    .values
+      .value
+        .icon
+          ion.ion-md-color-palette
+        .title
+          h2 Designed
+        p Creating an awesome UI with your users experience in mind. Prototyping these and shipping it for approval.
+      .value
+        .icon
+          ion.ion-ios-hammer
+        .title
+          h2 Built Exceptionally
+        p We choose the right tech stack for your project considering all that would make you stand out.
+      .value
+        .icon
+          ion.ion-md-gift
+        .title
+          h2 Packaged
+        p Time to ship your app to production? We would package it in a safe and secure manner with all features well tested.
+    .partners 
+      .partner
+        img(src="/images/google.png", alt="")
+      .partner
+        img(src="/images/aws.png", alt="")
+      .partner
+        img(src="/images/do.png", alt="")
+      .partner
+        img(src="/images/ibm.png", alt="")
+      .partner
+        img(src="/images/mongo.png", alt="")
+  .description
+    .text
+      h2 We develop your apps + websites in flash time
+      p Speed is essential for high productivity. Getting your website or app developed fast is what you should be looking for. And thats what we provide.
+      br
+      .list
+        .icon 
+          ion.ion-ios-color-palette
+        | Perfect for modern startups
+      .list
+        .icon.orange 
+          ion.ion-ios-flash
+        | Speed building apps yet with accuracy
+      .list
+        .icon.pink 
+          ion.ion-ios-cog
+        | Quality design and thoughtfully crafted code
+
+    .image
+      img(src="/images/phone.png", alt="")
+  .blog
+    .posts
+      .post
+        .image
+          img(src="/images/blog/images/fucshia.png", alt="")
+        .text
+          h2 Google is Serious with the Fucshia OS
+          p Google has released the documentation for the Fuschia operating system. And this is a sign that there has been massive progress with the Fuschia operating system.
+        .footer
+          .user
+            img(src="/images/user.png", alt="")
+          .button 
+            a(href="#") Read More
+              ion.ion-md-arrow-forward.ml-10
+      .post
+        .image
+          img(src="/images/blog/images/zorin.jpg", alt="")
+        .text
+          h2 Zorin OS 15 for Windows
+          p An all new experience with the Zorin 15 operating system. Zorin OS 15 is built with windows users in mind. It presents you with more than one user interface. You can choose between Ubuntu and Windows.
+        .footer
+          .user
+            img(src="/images/user.png", alt="")
+          .button 
+            a(href="#") Read More
+              ion.ion-md-arrow-forward.ml-10
+      .post
+        .image
+          img(src="/images/blog/images/tailwind.png", alt="")
+        .text
+          h2 Tailwind CSS 
+          p More like other Ui libraries, tailwind is a low level highly customizable css librabry. You can build responsive and great UI's without writting any CSS. 
+        .footer
+          .user
+            img(src="/images/user.png", alt="")
+          .button 
+            a(href="#") Read More
+              ion.ion-md-arrow-forward.ml-10
+  .re-brand
+    .image 
+      img(src="/images/laptop.png", alt="")
+    .text
+      h2 Change the look and feel of your app or website
+      p  The look and feel of your app goes a long way to affect your revenue generation momentum. Quality is not just the product but the brand as well.
+      .button.mt-20
+       button Click here
+
+  .applications
+    .text
+      h2 Our Clients
+      p We have built lot's of applications that you would need in your business. Take some time to scroll through them and pick the app that would help increase productivity in your business.
+    .app
+      #next
+        ion.ion-md-arrow-forward
+      .image
+      .content
+        .text
+          h2 Deligad
+          p  Established on the 23rd march 2017 in Accra, Deligad Supplies Limited is a procurement company that mainly deals in the supply of laboratory consumables such as examination gloves, filtration and purification products, industrial and analytical reagents.
+          .operating-systems
+            .os
+              img(src="/images/os/linux.png", alt="")
+            .os
+              img(src="/images/os/mac.png", alt="")
+            .os
+              img(src="/images/os/win.png", alt="")
+  .notify-me
+    #close-notify
+      ion.ion-md-close
+    .text-input
+      h2 Enjoy Discounts
+      p Anytime you have a special offer, launch a new software or make a blog post.
+      .form-group
+        input(type="text" placeholder="Enter Email")
+      .form-group.mt-10
+        button Notify Now
+          ion.ion-ios-arrow-forward.ml-10
+    .image
+      img(src="/images/notify.png", alt="")
+  .page-footer
+    .site-map
+      h4 Site Map
+      .links
+        .link 
+          a(href="/about") About
+        .link 
+          a(href="/contact") Contact
+        .link 
+          a(href="/blog") Blog
+        .link 
+          a(href="/career") Career
+        .link 
+          a(href="/help") Help Center
+    .items
+      .item
+        h2 Creative Dotlogics
+        p Creative Dotlogics is a solution to every problem faced by companies or startups. We help you gain recognition on the internet hence maximizing your prospects.
+      .item
+        .form
+          h2 Tech News Updates
+          p Subscribe to get updates on the latest tech news. Drop your email and we wold drop the papers everyday.
+          .input-group
+            input(type="text" placeholder="Enter Email Address")
+            button Send 
+

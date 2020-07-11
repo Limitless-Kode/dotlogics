@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/css/header.css')
+    link(rel="stylesheet", href="/css/icons.min.css")
+    block styles
+  body.antialiased.bg-white
+    header.flex.justify-around.align-center
+      .brand.inline-block 
+        a(href="/")
+          img(src="/images/user.png", alt="" height="60px")
+      .links.justify-around.bg-black(class="lg:flex")
+        .link 
+          a(href="/about") About
+        .link 
+          a(href="/contact") Contact
+        .link 
+          a(href="/blog") Blog
+        .link 
+          a(href="career") Career
+        .link 
+          a(href="help") Help Center
+      .nav-options
+        button Hire now
+    block content

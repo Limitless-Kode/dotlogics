@@ -1,0 +1,10 @@
+extends layout
+block styles
+  link(rel="stylesheet", href="/css/404.css")
+block content
+    .container
+        img(src="/images/404.png", alt="Error Image", sizes="90", srcset="")
+        h3 Sorry, Page Not Found
+        p Please check your url again. This page is not found or has been removed.
+        button
+            a(href="/" rel="noopener noreferrer") Go Home

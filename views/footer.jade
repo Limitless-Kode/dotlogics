@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title #{title}
+    link(rel='stylesheet', href='/css/header.css')
+    link(rel="stylesheet", href="/css/icons.min.css")
+    block styles
+  body.antialiased.bg-white
+    header.flex.justify-around.align-center
+      .brand.inline-block 
+        img(src="/images/dotlogics.png", alt="" height="60px")
+      .links.justify-around.bg-black(class="lg:flex")
+        .link 
+          a(href="#") Forums
+        .link 
+          a(href="#") About
+        .link 
+          a(href="#") Contact
+        .link 
+          a(href="#") Blog
+        .link 
+          a(href="#") Career
+        .link 
+          a(href="#") Help Center
+      .nav-options
+        button Hire now
+    block content
+// cell ministry partnership awards commendation awards 

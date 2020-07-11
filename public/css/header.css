@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'grotesk';
+  src: url("/fonts/OTF/HKGrotesk-Regular.otf");
+}
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: grotesk;}
+.primary{color: #335eea;}
+body{overflow-x: hidden;}
+
+header{
+  display: flex;
+  width: 100vw;
+  height: 90px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .links{
+  display: flex;
+}
+
+header .links .link{
+  margin: 0px 30px;
+  font-size: 17px;
+}
+
+header .links .link a{
+  text-decoration: none;
+  color: #506690;
+  font-weight: 600;
+}
+header .links .link a:hover{
+  color: #335EEA;
+}
+
+button{
+  background: #335eea;
+  font-family: grotesk;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: box-shadow .25s ease,transform .25s ease;
+  transition-property: box-shadow, transform;
+  transition-duration: 0.25s, 0.25s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0s;
+}
+
+button:hover{
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  transform: translateY(-5px);
+}
+
+.btn-lg{
+  padding: 20px;
+}
